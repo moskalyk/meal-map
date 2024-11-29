@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Tabs, Tab, Box, Typography, Grid } from "@mui/material";
-import JSONWidget from "./JSONWidget";
+import JSONWidget from "./JSONWIdget";
 import versusLogo from "./assets/versus.energy.png";
 import SunBurstWidget from "./SunBurstWidget";
 
-const TabPanel = ({ children, value, index }) => {
+const TabPanel = ({ children, value, index }: any) => {
   return (
     <div
       role="tabpanel"
@@ -24,7 +24,7 @@ const TabPanel = ({ children, value, index }) => {
 const NavBar = (props: any) => {
   const [recipes, setRecipes] = useState(null);
 
-  const handleChange = (event, newValue) => {
+  const handleChange = (_: any, newValue: any) => {
     props.setValue(newValue);
   };
 
@@ -37,13 +37,13 @@ const NavBar = (props: any) => {
     }, 0);
   }, []);
 
-  const viewRecipe = async (recipeTitle) => {
+  const viewRecipe = async (recipeTitle: any) => {
     try {
       const res = await fetch("/recipes.json");
       const data = await res.json();
 
       // Find the recipe that matches the provided title
-      const selectedRecipe = data.find((r) => r.title === recipeTitle);
+      const selectedRecipe = data.find((r: any) => r.title === recipeTitle);
 
       // Set the recipe for viewing
       if (selectedRecipe) {
@@ -56,10 +56,10 @@ const NavBar = (props: any) => {
     }
   };
 
-  const prepareSunburstData = (recipes) => {
+  const prepareSunburstData = (recipes: any) => {
     // Calculate totals for each category across all recipes
     const totalNutrition = recipes.reduce(
-      (totals, recipe) => {
+      (totals: any, recipe: any) => {
         totals.protein += parseFloat(recipe.nutritionFacts.protein);
         totals.fat += parseFloat(recipe.nutritionFacts.fat);
         totals.carbohydrates += parseFloat(recipe.nutritionFacts.carbohydrates);
@@ -76,7 +76,7 @@ const NavBar = (props: any) => {
         {
           name: "Protein",
           value: totalNutrition.protein,
-          children: recipes.map((recipe) => ({
+          children: recipes.map((recipe: any) => ({
             name: `${recipe.title} (Protein)`,
             value: parseFloat(recipe.nutritionFacts.protein) * 400,
           })),
@@ -84,7 +84,7 @@ const NavBar = (props: any) => {
         {
           name: "Fat",
           value: totalNutrition.fat,
-          children: recipes.map((recipe) => ({
+          children: recipes.map((recipe: any) => ({
             name: `${recipe.title} (Fat)`,
             value: parseFloat(recipe.nutritionFacts.fat) * 400,
           })),
@@ -92,7 +92,7 @@ const NavBar = (props: any) => {
         {
           name: "Carbohydrates/Fiber",
           value: totalNutrition.carbohydrates,
-          children: recipes.map((recipe) => ({
+          children: recipes.map((recipe: any) => ({
             name: `${recipe.title} (Carbohydrates)`,
             value: parseFloat(recipe.nutritionFacts.carbohydrates) * 400,
           })),
@@ -107,6 +107,7 @@ const NavBar = (props: any) => {
     setTimeout(async () => {
       const res = await fetch("/recipes.json");
       const data = await res.json();
+      // @ts-ignore
       setSunburstData(prepareSunburstData(data));
     }, 0);
   }, []);
@@ -218,9 +219,11 @@ const NavBar = (props: any) => {
               >
                 <h3>{title}</h3>
                 <hr />
+                  {/* @ts-ignore*/}
+
                 <ul class="recipe-list">
-                  {recipes &&
-                    recipes.map((recipe) => {
+                  {/* @ts-ignore*/}
+                  {recipes && recipes.map((recipe: any) => {
                       if (recipe.category == title) {
                         return (
                           <>
@@ -377,6 +380,7 @@ const NavBar = (props: any) => {
       <TabPanel
         value={props.value}
         index={3}
+        // @ts-ignore
         style={{
           width: "100vw", // Full viewport width
           marginTop: "200px", // Remove extra margins
@@ -390,7 +394,7 @@ const NavBar = (props: any) => {
         <br />
         <br />
         <Grid container spacing={2}>
-          {["versus.energy", "cuizine"].map((title, index) => (
+          {["versus.energy", "cuizine"].map((title: any, index: any) => (
             <Grid item xs={12} sm={6} md={6} key={index}>
               <Box
                 sx={{
@@ -435,6 +439,7 @@ const NavBar = (props: any) => {
       <TabPanel
         value={props.value}
         index={4}
+        // @ts-ignore
         style={{
           minWidth: "800px", // Minimum width for the tab panel
           maxWidth: "100%", // Allows it to scale with the parent

@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import RecipeSearch from "./RecipeSearch";
 // import Home from './Home'
@@ -37,7 +35,6 @@ function App() {
             maxWidth: "70px", // Limits the logo's width
             zIndex: 1000, // Ensures it stays above other elements
           }}
-          alt="Logo"
         />
       )}
 
@@ -103,9 +100,12 @@ function App() {
           style={{ padding: "20px", maxWidth: "800px", margin: "50px auto" }}
         >
           <h1 style={{ fontSize: "28px", marginBottom: "10px" }}>
+              {/*@ts-ignore*/}
+
             {recipeViewing.title}
           </h1>
           <p style={{ fontStyle: "italic", color: "#555" }}>
+              {/*@ts-ignore*/}
             {recipeViewing.description}
           </p>
 
@@ -126,9 +126,12 @@ function App() {
                 flex: "1",
               }}
             >
+              {/*@ts-ignore*/}
+
               {recipeViewing.ingredients
+                // @ts-ignore
                 .slice(0, Math.ceil(recipeViewing.ingredients.length / 2))
-                .map((ingredient, index) => (
+                .map((ingredient: any, index: any) => (
                   <li key={index}>
                     {ingredient.quantity} {ingredient.measurement} of{" "}
                     {ingredient.ingredient}
@@ -144,9 +147,12 @@ function App() {
                 flex: "1",
               }}
             >
+              {/*@ts-ignore*/}
+
               {recipeViewing.ingredients
+                // @ts-ignore
                 .slice(Math.ceil(recipeViewing.ingredients.length / 2))
-                .map((ingredient, index) => (
+                .map((ingredient: any, index: any) => (
                   <li key={index}>
                     {ingredient.quantity} {ingredient.measurement} of{" "}
                     {ingredient.ingredient}
@@ -157,7 +163,9 @@ function App() {
 
           <h2 style={{ marginTop: "20px" }}>Steps</h2>
           <ol style={{ paddingLeft: "20px" }}>
-            {recipeViewing.steps.map((step, index) => (
+              {/*@ts-ignore*/}
+          
+            {recipeViewing.steps.map((step: any, index: any) => (
               <li
                 key={index}
                 style={{ textAlign: "left", marginBottom: "10px" }}

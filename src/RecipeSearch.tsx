@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Autocomplete, TextField, Chip, Button, Box } from "@mui/material";
 
 const RecipeSearch = (props: any) => {
@@ -10,8 +10,8 @@ const RecipeSearch = (props: any) => {
             const data = await res.json();
 
             // Flatten the list of ingredients
-            const allIngredients = data.flatMap((recipe) =>
-                recipe.ingredients.map((ingredient) => ingredient.ingredient)
+            const allIngredients = data.flatMap((recipe: any) =>
+                recipe.ingredients.map((ingredient: any) => ingredient.ingredient)
             );
 
             setRecipes(allIngredients); // Set the flattened list
@@ -19,19 +19,19 @@ const RecipeSearch = (props: any) => {
     
     }, [])
     
-    const findBestRecipeBasedOnIngredients = (selectedIngredients, recipes) => {
+    const findBestRecipeBasedOnIngredients = (selectedIngredients: any, recipes: any) => {
         if (!recipes) return null;
 
         // Map recipes to the number of matching ingredients
-        const recipeMatches = recipes.map((recipe) => {
-            const matchingIngredients = recipe.ingredients.filter((ingredient) =>
+        const recipeMatches = recipes.map((recipe: any) => {
+            const matchingIngredients = recipe.ingredients.filter((ingredient: any) =>
                 selectedIngredients.includes(ingredient.ingredient)
             );
             return { title: recipe.title, matchCount: matchingIngredients.length };
         });
 
         // Find the recipe with the highest match count
-        const bestRecipe = recipeMatches.reduce((best, current) =>
+        const bestRecipe = recipeMatches.reduce((best: any, current: any) =>
             current.matchCount > best.matchCount ? current : best,
             { title: null, matchCount: 0 }
         );
@@ -45,7 +45,7 @@ const RecipeSearch = (props: any) => {
         const data = await res.json();
         const recipeTitle = findBestRecipeBasedOnIngredients(selectedIngredients, data)
         console.log(recipeTitle)
-        const selectedRecipe = data.find((r) => r.title === recipeTitle);
+        const selectedRecipe = data.find((r: any) => r.title === recipeTitle);
 
         props.setRecipeViewing(selectedRecipe)
         props.set
@@ -64,12 +64,18 @@ const RecipeSearch = (props: any) => {
             <Autocomplete
                 style={{border: 'grey'}}
                 multiple
+                            // @ts-ignore
                 options={recipes}
                 value={selectedIngredients}
+                            // @ts-ignore
                 onChange={(event, newValue) => setSelectedRecipes(newValue)}
+                            // @ts-ignore
+
                 renderTags={(value: readonly string[], getTagProps) =>
                     value.map((option: string, index: number) => (
                         <Chip
+                            // @ts-ignore
+
                             key={option}
                             label={option}
                             {...getTagProps({ index })}
