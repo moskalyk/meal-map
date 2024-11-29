@@ -55,5 +55,17 @@
 			"Pour the egg mixture over the spinach and cheese, ensuring even distribution.",
 			"Bake for 35–40 minutes or until the quiche is set and the crust is golden brown."
 		]
+	},{
+		"category": "Lifestyle",
+		"title": "Chamomile",
+		"description": "Soothing flowery chamomile tea",
+		"ingredients": [
+			{ "quantity": 1, "ingredient": "chamomile flowers", "measurement": "34g" },
+			{ "quantity": 1, "ingredient": "sprig of mint", "measurement": "1g" },
+			{ "quantity": 1, "ingredient": "boiling water", "measurement": "8oz" },
+		],
+		"steps": [
+			"add water to flowers and steep flowers for 10-20 minutes"
+		]
 	}
 ]
