@@ -4,6 +4,21 @@ import JSONWidget from "./JSONWIdget";
 import versusLogo from "./assets/versus.energy.png";
 import SunBurstWidget from "./SunBurstWidget";
 
+const useIsMobile = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Initialize based on screen width
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize); // Listen for window resize events
+    return () => window.removeEventListener("resize", handleResize); // Cleanup on unmount
+  }, []);
+
+  return isMobile;
+};
+
 const TabPanel = ({ children, value, index }: any) => {
   return (
     <div
@@ -23,6 +38,8 @@ const TabPanel = ({ children, value, index }: any) => {
 
 const NavBar = (props: any) => {
   const [recipes, setRecipes] = useState(null);
+
+  const isMobile = useIsMobile();
 
   const handleChange = (_: any, newValue: any) => {
     props.setValue(newValue);
@@ -115,7 +132,7 @@ const NavBar = (props: any) => {
   useEffect(() => {}, [sunburstData]);
 
   return (
-    <Box sx={{ width: "900px", textAlign: "center" }}>
+    <Box sx={{ width: !isMobile ? "900px" : '40%', textAlign: "center" }}>
       {/* Tabs Navigation */}
       <Box
         sx={{
@@ -123,6 +140,7 @@ const NavBar = (props: any) => {
           transform: "translateX(-50%)",
           textAlign: "center",
           marginTop: "100px",
+          width: '80%',
           position: "fixed", // Fixed at the top
           top: 0,
           zIndex: 1000, // Ensures it stays above other content
@@ -141,9 +159,10 @@ const NavBar = (props: any) => {
           <Tab
             label="Home"
             sx={{
+              padding: '10px',
+              width: "10px", // Directly apply width to the Tab component
               "&:focus": {
                 color: "black",
-
                 outline: "none", // Remove focus outline
               },
             }}
@@ -151,6 +170,8 @@ const NavBar = (props: any) => {
           <Tab
             label="About"
             sx={{
+              width: "10px", // Directly apply width to the Tab component
+
               "&:focus": {
                 color: "black",
 
@@ -161,6 +182,8 @@ const NavBar = (props: any) => {
           <Tab
             label="Nutrition"
             sx={{
+              width: "10px", // Directly apply width to the Tab component
+
               "&:focus": {
                 color: "black",
                 outline: "none", // Remove focus outline
@@ -170,6 +193,8 @@ const NavBar = (props: any) => {
           <Tab
             label="Tools"
             sx={{
+              width: "10px", // Directly apply width to the Tab component
+
               "&:focus": {
                 color: "black",
 
@@ -177,7 +202,7 @@ const NavBar = (props: any) => {
               },
             }}
           />
-          <Tab
+          {!isMobile&&<Tab
             label="API"
             sx={{
               "&:focus": {
@@ -186,13 +211,13 @@ const NavBar = (props: any) => {
                 outline: "none", // Remove focus outline
               },
             }}
-          />
+          />}
         </Tabs>
       </Box>
 
       {/* Tab Panels */}
       <TabPanel value={props.value} index={0}>
-        <Grid container spacing={2} style={{ marginTop: "100px" }}>
+        <Grid container spacing={2} style={{ margin: 'auto', marginTop: "100px", width: isMobile ? "400px" : "100%",}}>
           {[
             "Main",
             "Sides",
@@ -218,7 +243,7 @@ const NavBar = (props: any) => {
                 }}
               >
                 <h3>{title}</h3>
-                <hr />
+                <hr  style={{width: '70%'}}/>
                   {/* @ts-ignore*/}
 
                 <ul class="recipe-list">
@@ -249,6 +274,20 @@ const NavBar = (props: any) => {
         </Grid>
       </TabPanel>
       <TabPanel value={props.value} index={1}>
+      <Box
+  sx={{
+    marginTop: { xs: "100px", sm: "40px", md: "80px" }, // Adjust margin for mobile
+    width: "300px",
+    margin: 'auto',
+    borderRadius: 1,
+
+    overflow: "hidden",
+    textAlign: "left",
+    // padding: { xs: "10px", sm: "20px" }, // Add padding for better spacing on smaller screens
+    fontSize: { xs: "14px", sm: "16px", md: "18px" }, // Adjust font size for mobile
+    lineHeight: "1.5", // Ensure good line spacing
+  }}
+>
         <p>
           A personal blog to map and keep track of recipes I like making, or
           have made. Are.na for food memory.
@@ -263,6 +302,8 @@ const NavBar = (props: any) => {
             morgan.moskalyk@protonmail.ch
           </a>
         </p>
+          </Box>
+
       </TabPanel>
       <TabPanel value={props.value} index={2}>
         <br />
@@ -270,14 +311,21 @@ const NavBar = (props: any) => {
         <br />
         <br />
         <br />
-        <h2>Sitewide Caloric Breakdown</h2>
+      {/* @ts-ignore */}
 
-        <SunBurstWidget data={sunburstData} />
+        <h2 style={{width: isMobile && '300px'}}>Sitewide Caloric Breakdown</h2>
+
+      {/* @ts-ignore */}
+
+        <SunBurstWidget isMobile={isMobile} data={sunburstData} />
         <br />
         <br />
         <br />
-        <h2>Nutritional Tricks</h2>
-        <p style={{ textAlign: "left" }}>
+      {/* @ts-ignore */}
+
+        <h2 style={{width: isMobile && '300px'}}>Nutritional Tricks</h2>
+      {/* @ts-ignore */}
+        <p style={{ textAlign: "left", width: isMobile && '300px'}}>
           The{" "}
           <a
             href="https://en.wikipedia.org/wiki/Glycemic_index"
@@ -382,7 +430,7 @@ const NavBar = (props: any) => {
         index={3}
         // @ts-ignore
         style={{
-          width: "100vw", // Full viewport width
+          width: isMobile && '100px', // Full viewport width
           marginTop: "200px", // Remove extra margins
           padding: "0", // Ensure no padding interferes
           position: "relative", // Ensure proper layout context
@@ -391,16 +439,18 @@ const NavBar = (props: any) => {
         <br />
         <br />
         <br />
+
         <br />
         <br />
         <Grid container spacing={2}>
           {["versus.energy", "cuizine"].map((title: any, index: any) => (
-            <Grid item xs={12} sm={6} md={6} key={index}>
+            <Grid item xs={12} sm={12} md={6} key={index}>
               <Box
                 sx={{
                   cursor: "pointer",
-                  width: "100%",
+                  // width: "100%",
                   height: 300,
+                  width: isMobile ? 300 : 'auto',
                   position: "relative",
                   border: "1px solid #ddd",
                   borderRadius: 1,

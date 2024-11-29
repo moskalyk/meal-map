@@ -1,9 +1,26 @@
 import { useState, useEffect } from "react";
 import { Autocomplete, TextField, Chip, Button, Box } from "@mui/material";
 
+const useIsMobile = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Initialize based on screen width
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize); // Listen for window resize events
+    return () => window.removeEventListener("resize", handleResize); // Cleanup on unmount
+  }, []);
+
+  return isMobile;
+};
+
 const RecipeSearch = (props: any) => {
     const [selectedIngredients, setSelectedRecipes] = useState<string[]>([]);
     const [recipes, setRecipes] = useState(null)
+    const isMobile = useIsMobile()
+
     useEffect(() => {
         setTimeout(async () => {
             const res = await fetch('/recipes.json');
@@ -52,14 +69,17 @@ const RecipeSearch = (props: any) => {
     };
 
     return (
-        <div style={{marginTop: '-280px'}}>
+        <>
+      {/* @ts-ignore */}
+
+        <div style={{marginTop: !isMobile && '-280px'}}>
         <p style={{fontFamily: 'Gothic', fontSize: '80px'}}>Cuizine</p>
 
         <Box
             display="flex"
             alignItems="center"
             justifyContent="center"
-            sx={{ maxWidth: 500, margin: "auto", mt: 4 }}
+            sx={{ maxWidth: !isMobile ? 500 : 250, margin: "auto", mt: 4 }}
         >
             <Autocomplete
                 style={{border: 'grey'}}
@@ -124,6 +144,7 @@ const RecipeSearch = (props: any) => {
             </Button>
         </Box>
     </div>
+    </>
     );
 };
 

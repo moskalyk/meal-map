@@ -3,7 +3,7 @@ import Sunburst from "sunburst-chart";
 // @ts-ignore
 import * as d3 from "d3";
 
-const SunburstWidget = ({ data }: any) => {
+const SunburstWidget = ({ data, isMobile }: any) => {
   const chartRef = useRef(null);
   const color = d3.scaleOrdinal(d3.schemePaired);
 
@@ -21,7 +21,7 @@ const SunburstWidget = ({ data }: any) => {
         .data(data)
         // @ts-ignore
 
-        .width(500)
+        .width(!isMobile ? 500 : 300)
         // @ts-ignore
 
         .color((d) => color(d.name))
