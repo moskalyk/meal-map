@@ -1,0 +1,179 @@
+[
+    {
+        "category": "Basic",
+        "title": "Honey Garlic Wings",
+        "description": "Sticky and flavorful chicken wings with a sweet honey-garlic glaze.",
+        "ingredients": [
+            { "quantity": 900, "ingredient": "chicken wings", "measurement": "g" },
+            { "quantity": 80, "ingredient": "honey", "measurement": "ml" },
+            { "quantity": 4, "ingredient": "cloves of garlic, minced", "measurement": "g" },
+            { "quantity": 60, "ingredient": "soy sauce", "measurement": "ml" },
+            { "quantity": 15, "ingredient": "olive oil", "measurement": "ml" }
+        ],
+        "steps": [
+            "Preheat the oven to 400°F (200°C).",
+            "Arrange chicken wings on a baking sheet and bake for 25 minutes.",
+            "In a saucepan, mix honey, minced garlic, soy sauce, and olive oil. Simmer for 5 minutes.",
+            "Coat the wings with the glaze and bake for another 10 minutes."
+        ],
+        "nutritionFacts": {
+            "calories": 250,
+            "protein": "20",
+            "fat": "15",
+            "carbohydrates": "10",
+            "sodium": "500mg"
+        }
+    },
+    {
+        "category": "Basic",
+        "title": "Hot Wings",
+        "description": "Spicy chicken wings coated in a tangy hot sauce glaze.",
+        "ingredients": [
+            { "quantity": 900, "ingredient": "chicken wings", "measurement": "g" },
+            { "quantity": 120, "ingredient": "hot sauce", "measurement": "ml" },
+            { "quantity": 30, "ingredient": "butter", "measurement": "g" },
+            { "quantity": 10, "ingredient": "vinegar", "measurement": "ml" },
+            { "quantity": 5, "ingredient": "garlic powder", "measurement": "g" }
+        ],
+        "steps": [
+            "Preheat the oven to 400°F (200°C).",
+            "Arrange chicken wings on a baking sheet and bake for 25 minutes.",
+            "In a saucepan, combine hot sauce, butter, vinegar, and garlic powder. Heat until melted and combined.",
+            "Toss the wings in the sauce and bake for another 10 minutes."
+        ],
+        "nutritionFacts": {
+            "calories": 230,
+            "protein": "21",
+            "fat": "14",
+            "carbohydrates": "5",
+            "sodium": "600mg"
+        }
+    },
+    {
+        "category": "Main",
+        "title": "Marinated Wine and Thyme Steak",
+        "description": "A tender steak marinated in red wine and thyme for a flavorful main course.",
+        "ingredients": [
+            { "quantity": 500, "ingredient": "steak", "measurement": "g" },
+            { "quantity": 250, "ingredient": "red wine", "measurement": "ml" },
+            { "quantity": 10, "ingredient": "fresh thyme", "measurement": "g" },
+            { "quantity": 5, "ingredient": "black pepper", "measurement": "g" },
+            { "quantity": 5, "ingredient": "salt", "measurement": "g" }
+        ],
+        "steps": [
+            "Place the steak in a shallow dish and pour the red wine over it.",
+            "Add thyme, black pepper, and salt. Marinate in the refrigerator for at least 2 hours.",
+            "Remove the steak from the marinade and cook to your desired doneness."
+        ],
+        "nutritionFacts": {
+            "calories": 310,
+            "protein": "25",
+            "fat": "18",
+            "carbohydrates": "4",
+            "sodium": "400mg"
+        }
+    },
+    {
+        "category": "Sides",
+        "title": "Brown Sugar Carrots",
+        "description": "Sweet and tender carrots glazed with brown sugar and butter.",
+        "ingredients": [
+            { "quantity": 400, "ingredient": "carrots, peeled and sliced", "measurement": "g" },
+            { "quantity": 30, "ingredient": "butter", "measurement": "g" },
+            { "quantity": 30, "ingredient": "brown sugar", "measurement": "g" },
+            { "quantity": 5, "ingredient": "salt", "measurement": "g" }
+        ],
+        "steps": [
+            "Boil the carrots until tender and drain.",
+            "In a skillet, melt butter and stir in the brown sugar and salt.",
+            "Add the carrots and toss until glazed."
+        ],
+        "nutritionFacts": {
+            "calories": 150,
+            "protein": "2",
+            "fat": "5",
+            "carbohydrates": "25",
+            "sodium": "150mg"
+        }
+    },
+    {
+        "category": "Snack",
+        "title": "Irish Soda Bread",
+        "description": "A traditional Irish bread made with baking soda, buttermilk, and a hearty crumb.",
+        "ingredients": [
+            { "quantity": 250, "ingredient": "all-purpose flour", "measurement": "g" },
+            { "quantity": 5, "ingredient": "baking soda", "measurement": "g" },
+            { "quantity": 250, "ingredient": "buttermilk", "measurement": "ml" },
+            { "quantity": 10, "ingredient": "salt", "measurement": "g" }
+        ],
+        "steps": [
+            "Preheat the oven to 375°F (190°C).",
+            "Mix flour, baking soda, and salt in a large bowl.",
+            "Slowly add buttermilk and knead until a dough forms.",
+            "Shape the dough into a round loaf and bake for 40–45 minutes."
+        ],
+        "nutritionFacts": {
+            "calories": 180,
+            "protein": "5",
+            "fat": "1",
+            "carbohydrates": "35",
+            "sodium": "200mg"
+        }
+    },
+	{
+		"category": "Main",
+		"title": "Spinach and Egg Quiche",
+		"description": "A savory quiche with a flaky crust, fresh spinach, and fluffy eggs.",
+		"ingredients": [
+			{ "quantity": 1, "ingredient": "pre-made pie crust", "measurement": "200g" },
+			{ "quantity": 120, "ingredient": "fresh spinach, chopped", "measurement": "g" },
+			{ "quantity": 4, "ingredient": "large eggs", "measurement": "200g" },
+			{ "quantity": 120, "ingredient": "heavy cream", "measurement": "ml" },
+			{ "quantity": 100, "ingredient": "shredded cheese (e.g., cheddar or Swiss)", "measurement": "g" },
+			{ "quantity": 5, "ingredient": "salt", "measurement": "g" },
+			{ "quantity": 3, "ingredient": "pepper", "measurement": "g" }
+		],
+		"steps": [
+			"Preheat the oven to 375°F (190°C) and place the pie crust in a pie dish.",
+			"In a bowl, whisk together eggs, heavy cream, salt, and pepper.",
+			"Layer the chopped spinach and shredded cheese in the pie crust.",
+			"Pour the egg mixture over the spinach and cheese, ensuring even distribution.",
+			"Bake for 35–40 minutes or until the quiche is set and the crust is golden brown."
+		],
+		"nutritionFacts": {
+			"calories": 320,
+			"protein": "12",
+			"fat": "25",
+			"carbohydrates": "15",
+			"sodium": "450mg"
+		}
+	},
+	{
+	  "category": "Main",
+	  "title": "Rolled Omelette",
+	  "description": "A tamago-style omelette with layers of egg rolled with ingredients inside.",
+	  "ingredients": [
+	    { "quantity": 100, "ingredient": "onion, chopped", "measurement": "g" },
+	    { "quantity": 4, "ingredient": "large eggs", "measurement": "200g" },
+	    { "quantity": 20, "ingredient": "heavy cream", "measurement": "ml" },
+	    { "quantity": 50, "ingredient": "shredded cheese (e.g., cheddar or Swiss)", "measurement": "g" },
+	    { "quantity": 5, "ingredient": "pepper", "measurement": "g" }
+	  ],
+	  "steps": [
+	    "Crack and beat the eggs in a bowl. Add the heavy cream and mix until smooth.",
+	    "Preheat a small to medium-sized pan over medium-high heat. Once hot, add oil or butter to coat the pan.",
+	    "Pour a thin layer of the egg mixture into the pan and cook until it sets, like a pancake.",
+	    "Use a spatula to lift one side of the egg and roll it over gently, about 1 cm at a time, creating a crepe-like roll.",
+	    "Shift the rolled egg to one side of the pan and pour in an additional layer of egg mixture.",
+	    "Place a small amount of the chopped onion and shredded cheese along the edge where the new layer meets the rolled egg.",
+	    "Repeat the rolling and layering process until all the whisked egg mixture and ingredients are used up."
+	  ],
+	  "nutritionFacts": {
+	    "calories": 320,
+	    "protein": "21",
+	    "fat": "25",
+	    "carbohydrates": "6",
+	    "sodium": "380mg"
+	  }
+	}
+]

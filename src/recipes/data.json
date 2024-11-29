@@ -1,0 +1,59 @@
+[
+	{
+		"category": "Sidedish",
+		"title": "Caesar Salad",
+		"description": "A classic salad with crisp romaine lettuce, Parmesan cheese, croutons, and creamy Caesar dressing.",
+		"ingredients": [
+			{ "quantity": 1, "ingredient": "head of romaine lettuce", "measurement": "200g" },
+			{ "quantity": 50, "ingredient": "grated Parmesan cheese", "measurement": "g" },
+			{ "quantity": 100, "ingredient": "croutons", "measurement": "g" },
+			{ "quantity": 75, "ingredient": "Caesar dressing", "measurement": "ml" },
+			{ "quantity": 1, "ingredient": "grilled chicken breast (optional)", "measurement": "150g" }
+		],
+		"steps": [
+			"Wash and chop the romaine lettuce and place it in a large salad bowl.",
+			"Add Parmesan cheese, croutons, and sliced grilled chicken if desired.",
+			"Toss with Caesar dressing until evenly coated and serve immediately."
+		]
+	},
+	{
+		"category": "Main",
+		"title": "Honey Garlic Wings",
+		"description": "Deliciously sticky and flavorful chicken wings coated in a honey-garlic glaze.",
+		"ingredients": [
+			{ "quantity": 900, "ingredient": "chicken wings", "measurement": "g" },
+			{ "quantity": 80, "ingredient": "honey", "measurement": "ml" },
+			{ "quantity": 4, "ingredient": "cloves of garlic, minced", "measurement": "g" },
+			{ "quantity": 60, "ingredient": "soy sauce", "measurement": "ml" },
+			{ "quantity": 15, "ingredient": "olive oil", "measurement": "ml" },
+			{ "quantity": 5, "ingredient": "black pepper", "measurement": "g" }
+		],
+		"steps": [
+			"Preheat the oven to 400°F (200°C).",
+			"Arrange chicken wings on a baking sheet lined with parchment paper and bake for 25 minutes.",
+			"In a saucepan, mix honey, minced garlic, soy sauce, olive oil, and black pepper. Simmer for 5 minutes.",
+			"Remove the wings from the oven, coat them with the honey-garlic glaze, and bake for an additional 10 minutes."
+		]
+	},
+	{
+		"category": "Main",
+		"title": "Spinach and Egg Quiche",
+		"description": "A savory quiche with a flaky crust, fresh spinach, and fluffy eggs.",
+		"ingredients": [
+			{ "quantity": 1, "ingredient": "pre-made pie crust", "measurement": "200g" },
+			{ "quantity": 120, "ingredient": "fresh spinach, chopped", "measurement": "g" },
+			{ "quantity": 4, "ingredient": "large eggs", "measurement": "200g" },
+			{ "quantity": 120, "ingredient": "heavy cream", "measurement": "ml" },
+			{ "quantity": 100, "ingredient": "shredded cheese (e.g., cheddar or Swiss)", "measurement": "g" },
+			{ "quantity": 5, "ingredient": "salt", "measurement": "g" },
+			{ "quantity": 3, "ingredient": "pepper", "measurement": "g" }
+		],
+		"steps": [
+			"Preheat the oven to 375°F (190°C) and place the pie crust in a pie dish.",
+			"In a bowl, whisk together eggs, heavy cream, salt, and pepper.",
+			"Layer the chopped spinach and shredded cheese in the pie crust.",
+			"Pour the egg mixture over the spinach and cheese, ensuring even distribution.",
+			"Bake for 35–40 minutes or until the quiche is set and the crust is golden brown."
+		]
+	}
+]

@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.recipe-list {
+    list-style: none; /* Remove default list styling */
+    padding: 0;       /* Reset padding */
+    margin: 0;        /* Reset margin */
+}
+
+.recipe-list li {
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    padding-bottom: 5px; /* Space for the underline */
+    overflow: hidden;    /* Ensure underline stays within bounds */
+    display: inline-block; /* Make the list item's width shrink to fit the text */
+}
+
+.recipe-list li::after {
+    content: "";                      /* Create the underline */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;                      /* Match the width of the text */
+    height: 1px;                      /* Thickness of the underline */
+    background-color: black;          /* Color of the underline */
+    transform: scaleX(0);             /* Start with no underline (scale to 0) */
+    transform-origin: left;           /* Start the scaling animation from the left */
+    transition: transform 0.3s ease;  /* Smooth animation */
+}
+
+.recipe-list li:hover::after {
+    transform: scaleX(1); /* Scale the underline to full width on hover */
+}
+
+
