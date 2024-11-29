@@ -204,7 +204,7 @@ const NavBar = (props: any) => {
             "Lifestyle",
             "Other",
           ].map((title, index) => (
-            <Grid item xs={12} sm={4} md={4} key={index}>
+            <Grid item xs={6} sm={4} md={4} key={index}>
               <Box
                 sx={{
                   width: "100%",
