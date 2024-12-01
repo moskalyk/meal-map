@@ -133,7 +133,7 @@ function App() {
                 .slice(0, Math.ceil(recipeViewing.ingredients.length / 2))
                 .map((ingredient: any, index: any) => (
                   <li key={index}>
-                    {ingredient.quantity} {ingredient.measurement} of{" "}
+                    {ingredient.quantity} x {ingredient.measurement} of{" "}
                     {ingredient.ingredient}
                   </li>
                 ))}
@@ -154,7 +154,7 @@ function App() {
                 .slice(Math.ceil(recipeViewing.ingredients.length / 2))
                 .map((ingredient: any, index: any) => (
                   <li key={index}>
-                    {ingredient.quantity} {ingredient.measurement} of{" "}
+                    {ingredient.quantity} x {ingredient.measurement} of{" "}
                     {ingredient.ingredient}
                   </li>
                 ))}

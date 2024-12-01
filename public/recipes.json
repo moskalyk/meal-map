@@ -196,5 +196,36 @@
 			"carbohydrates": "0",
 			"sodium": "0"
 		}
-	}
+	},
+    {
+        "category": "Exotic",
+        "title": "Grilled Tofu",
+        "description": "Charred tofu grilled on the barbeque with a salty and umami sauce",
+        "ingredients": [
+            { "quantity": 1, "ingredient": "extra firm tofu", "measurement": "350g" },
+            { "quantity": 1, "ingredient": "soya sauce", "measurement": "1/4 cup" },
+            { "quantity": 1, "ingredient": "rice vinegar", "measurement": "1tbsp" },
+            { "quantity": 1, "ingredient": "lemon juice", "measurement": "1tbsp" },
+            { "quantity": 1, "ingredient": "garlic", "measurement": "2g" },
+            { "quantity": 1, "ingredient": "ginger", "measurement": "2g" }
+        ],
+        "steps": [
+            "Compress the tofu block with 2 plates and a weight to squeeze out the liquid.",
+            "Slice into strips.",
+            "Prepare the sauce.",
+            "Chop garlic & ginger.",
+            "Add soya sauce, rice vinegar, lemon juice, and chopped ingredients to a bowl.",
+            "Dip slices of tofu into the sauce.",
+            "Grill on medium-high for 7 minutes on each side.",
+            "Brush on sauce while cooking."
+        ],
+        "nutritionFacts": {
+            "calories": 370,
+            "protein": "35g",
+            "fat": "18g",
+            "carbohydrates": "9g",
+            "sodium": "2,300mg"
+        }
+    }
+
 ]
