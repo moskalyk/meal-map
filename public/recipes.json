@@ -226,6 +226,26 @@
             "carbohydrates": "9g",
             "sodium": "2,300mg"
         }
+    },{
+        "category": "Lifestyle",
+        "title": "Beet Mint Juice",
+        "description": "Sharp & tangy beet juice",
+        "ingredients": [
+            { "quantity": 1, "ingredient": "beet juice", "measurement": "125ml" },
+            { "quantity": 1, "ingredient": "sprig of mint", "measurement": "1g" },
+            { "quantity": 1, "ingredient": "manuka honey", "measurement": "1/2tbsp" }
+        ],
+        "steps": [
+            "add chopped mint to beet juice",
+            "warm honey in microwave and stir in"
+        ],
+        "nutritionFacts": {
+            "calories": 85,
+            "protein": "2",
+            "fat": "0",
+            "carbohydrates": "20.5",
+            "sodium": "100"
+        }
     }
 
 ]
