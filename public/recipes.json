@@ -122,30 +122,33 @@
     },
 	{
 		"category": "Main",
-		"title": "Spinach and Egg Quiche",
-		"description": "A savory quiche with a flaky crust, fresh spinach, and fluffy eggs.",
+		"title": "No-crust Spinach and Egg Quiche",
+		"description": "A savory quiche with spinach, protein rich cheese, and fluffy eggs.",
 		"ingredients": [
-			{ "quantity": 1, "ingredient": "pre-made pie crust", "measurement": "200g" },
-			{ "quantity": 120, "ingredient": "fresh spinach, chopped", "measurement": "g" },
+			{ "quantity": 1, "ingredient": "no-name frozen spinach, chopped", "measurement": "300g" },
+            { "quantity": 1, "ingredient": "2% creamed cottage cheese", "measurement": "16oz" },
 			{ "quantity": 4, "ingredient": "large eggs", "measurement": "200g" },
-			{ "quantity": 120, "ingredient": "heavy cream", "measurement": "ml" },
-			{ "quantity": 100, "ingredient": "shredded cheese (e.g., cheddar or Swiss)", "measurement": "g" },
+			{ "quantity": 1, "ingredient": "heavy cream", "measurement": "1/4 cup" },
+			{ "quantity": 6, "ingredient": "shredded cheese (e.g., cheddar or Swiss)", "measurement": "oz" },
 			{ "quantity": 5, "ingredient": "salt", "measurement": "g" },
-			{ "quantity": 3, "ingredient": "pepper", "measurement": "g" }
+            { "quantity": 3, "ingredient": "pepper", "measurement": "g" },
+            { "quantity": 3, "ingredient": "flour", "measurement": "tbsp" },
+            { "quantity": 1, "ingredient": "grated carrot", "measurement": "" },
+			{ "quantity": 4, "ingredient": "mushroom", "measurement": "" }
 		],
 		"steps": [
-			"Preheat the oven to 375°F (190°C) and place the pie crust in a pie dish.",
-			"In a bowl, whisk together eggs, heavy cream, salt, and pepper.",
-			"Layer the chopped spinach and shredded cheese in the pie crust.",
-			"Pour the egg mixture over the spinach and cheese, ensuring even distribution.",
-			"Bake for 35–40 minutes or until the quiche is set and the crust is golden brown."
+            "Preheat oven to 350°F",
+            "Grate the carrot & chop the mushrooms, or any other vegetable you want to prepare",
+			"In a bowl, whisk together eggs, heavy cream, salt, pepper and vegetables",
+			"Mix the chopped spinach and shredded cheese in with everything else.",
+			"Bake for 60 minutes or until the quiche is set and golden brown."
 		],
 		"nutritionFacts": {
-			"calories": 320,
-			"protein": "12",
-			"fat": "25",
-			"carbohydrates": "15",
-			"sodium": "450mg"
+			"calories": 649,
+			"protein": "28",
+			"fat": "35",
+			"carbohydrates": "20",
+			"sodium": "880mg"
 		}
 	},
 	{
@@ -241,10 +244,51 @@
         ],
         "nutritionFacts": {
             "calories": 85,
-            "protein": "2",
+            "protein": "2g",
             "fat": "0",
-            "carbohydrates": "20.5",
-            "sodium": "100"
+            "carbohydrates": "20.5g",
+            "sodium": "100mg"
+        }
+    },
+    {
+        "category": "Exotic",
+        "title": "Beef Vindaloo",
+        "description": "Spicy & red with tender beef and carrots serving 3 (rice extra)",
+        "ingredients": [
+            { "quantity": 2, "ingredient": "steak", "measurement": "" },
+            { "quantity": 1, "ingredient": "tomato paste", "measurement": "156ml" },
+            { "quantity": 1, "ingredient": "coconut milk", "measurement": "400ml" },
+            { "quantity": 1, "ingredient": "corriander", "measurement": "3g" },
+            { "quantity": 1, "ingredient": "onion", "measurement": "" },
+            { "quantity": 1, "ingredient": "tomatoe", "measurement": "" },
+            { "quantity": 10, "ingredient": "cloves", "measurement": "" },
+            { "quantity": 1, "ingredient": "cardamom", "measurement": "1/2 tsp" },
+            { "quantity": 1, "ingredient": "nutmug", "measurement": "1/2 tsp" },
+            { "quantity": 1, "ingredient": "celery salt", "measurement": "1/2 tsp" },
+            { "quantity": 1, "ingredient": "salt", "measurement": "to taste" },
+            { "quantity": 1, "ingredient": "red wine", "measurement": "1/3 cup" },
+            { "quantity": 1, "ingredient": "turmeric", "measurement": "1 tbls" },
+            { "quantity": 2, "ingredient": "cumin", "measurement": "1 tbls" },
+            { "quantity": 2, "ingredient": "paprika", "measurement": "1 tbls" },
+            { "quantity": 1, "ingredient": "fresh chopped ginger", "measurement": "1 tbls" }
+        ],
+        "steps": [
+            "Use a mortar and pestle and grind the cloves and fennel seeds",
+            "Chop onions, tomato, garlic (very finely), ginger (very finely)",
+            "Fry with olive oil the onions, tomatoes, garlic, and ginger for 5 minutes",
+            "Add the coconut milk, tomato paste, wine, and all the spices",
+            "Chop steak in chunks",
+            "Add in steak",
+            "Simmer till beef is cooked (~15 minutes on low-medium) and red color has darkened",
+            "Salt to taste and squeeze in lime",
+            "Garnish with chopped corriander"
+        ],
+        "nutritionFacts": {
+            "calories": 1426,
+            "protein": "51g",
+            "fat": "106g",
+            "carbohydrates": "54g",
+            "sodium": "330mg"
         }
     }
 
