@@ -98,19 +98,23 @@
     },
     {
         "category": "Snack",
-        "title": "Irish Soda Bread",
-        "description": "A traditional Irish bread made with baking soda, buttermilk, and a hearty crumb.",
+        "title": "Currant Irish Soda Bread",
+        "description": "A traditional Irish bread made with baking soda, buttermilk, and sweet currants.",
         "ingredients": [
-            { "quantity": 250, "ingredient": "all-purpose flour", "measurement": "g" },
-            { "quantity": 5, "ingredient": "baking soda", "measurement": "g" },
-            { "quantity": 250, "ingredient": "buttermilk", "measurement": "ml" },
-            { "quantity": 10, "ingredient": "salt", "measurement": "g" }
+            { "quantity": 3, "ingredient": "all-purpose flour", "measurement": "cup" },
+            { "quantity": 2, "ingredient": "sugar", "measurement": "tablespoon" },
+            { "quantity": 1, "ingredient": "baking soda", "measurement": "1/2 teaspoon" },
+            { "quantity": 1.5, "ingredient": "buttermilk", "measurement": "tablespoon" },
+            { "quantity": 1, "ingredient": "baking powder", "measurement": "tablespoon" },
+            { "quantity": 1, "ingredient": "currants", "measurement": "cup" },
+            { "quantity": 1.5, "ingredient": "salt", "measurement": "teaspoon" }
         ],
         "steps": [
-            "Preheat the oven to 375°F (190°C).",
-            "Mix flour, baking soda, and salt in a large bowl.",
-            "Slowly add buttermilk and knead until a dough forms.",
-            "Shape the dough into a round loaf and bake for 40–45 minutes."
+            "Preheat the oven to 325°F.",
+            "Mix all dry ingredients, flour, baking soda, baking powder, and salt in a large bowl.",
+            "Slowly add buttermilk and knead until a dough forms. Knead 10 times.",
+            "Shape the dough into a round loaf and bake, place on ungreased and floured cookie sheet, 40–45 minutes.",
+            "Pull out of oven 2 times and glaze with brush using water and sugar that was boiled."
         ],
         "nutritionFacts": {
             "calories": 180,
@@ -291,6 +295,78 @@
             "carbohydrates": "54g",
             "sodium": "330mg"
         }
+    },
+    {
+        "category": "Other",
+        "title": "Porcini Risotto",
+        "description": "Savoury mushroom and white wine risotto, where nutrition facts are for full recipe.",
+        "ingredients": [
+            { "quantity": 1, "ingredient": "leek", "measurement": "" },
+            { "quantity": 1, "ingredient": "onion", "measurement": "" },
+            { "quantity": 1, "ingredient": "risotto rice", "measurement": "cup" },
+            { "quantity": 100, "ingredient": "dried porcini mushrooms", "measurement": "g" },
+            { "quantity": 1, "ingredient": "white wine", "measurement": "cup" },
+            { "quantity": 3, "ingredient": "chicken broth", "measurement": "cup" },
+            { "quantity": 0.25, "ingredient": "butter", "measurement": "lb" },
+            { "quantity": 20, "ingredient": "parsley", "measurement": "g" },
+            { "quantity": 200, "ingredient": "parmesan cheese", "measurement": "g" }
+        ],
+        "steps": [
+            "Rinse and hydrate the porcini mushrooms with water and add to chicken broth in heated pot",
+            "Chop and sautee the onions and leeks in some butter",
+            "Add the rice to the vegetables in a deep dish pan",
+            "Add white wine to ingredients in pan and stir and wait a couple minutes",
+            "Every 5 minutes, laddle chicken broth into and stir enough to distribute evenly until rice is al dente",
+            "Add remainaing amount of butter and half of parmesan cheese",
+            "Garnish with chopped parsley and parmesan"
+        ],
+        "nutritionFacts": {
+            "calories": 2500,
+            "protein": "35g",
+            "fat": "128g",
+            "carbohydrates": "252g",
+            "sodium": "4000mg"
+        }
+    },
+    {
+        "category": "Main",
+        "title": "Vegetarian Šunkofleky",
+        "description": "Fluffy and cheesey without pork, served with a side of sauerkraut and pickles, where nutrition facts are for full recipe.",
+        "ingredients": [
+            { "quantity": 5, "ingredient": "egg noodle", "measurement": "handful" },
+            { "quantity": 10, "ingredient": "egg", "measurement": "" },
+            { "quantity": 0.25, "ingredient": "cream", "measurement": "cup" },
+            { "quantity": 3, "ingredient": "garlic", "measurement": "cloves" },
+            { "quantity": 10, "ingredient": "bread crumbs", "measurement": "g" },
+            { "quantity": 1, "ingredient": "portabello", "measurement": "" },
+            { "quantity": 0.5, "ingredient": "fennel", "measurement": "" },
+            { "quantity": 2, "ingredient": "butter", "measurement": "g" },
+            { "quantity": 10, "ingredient": "basil", "measurement": "g" },
+            { "quantity": 8, "ingredient": "cloves", "measurement": "" },
+            { "quantity": 20, "ingredient": "capers", "measurement": "g" },
+            { "quantity": 10, "ingredient": "dijon mustard", "measurement": "g" },
+            { "quantity": 4, "ingredient": "pickles", "measurement": "" },
+            { "quantity": 30, "ingredient": "sauerkraut", "measurement": "g" },
+            { "quantity": 40, "ingredient": "cheddar cheese", "measurement": "g" }
+        ],
+        "steps": [
+            "Preheat oven to 400°F",
+            "Cook egg noodles in boiling water",
+            "Slice fennel in strips and sautee",
+            "Beat the eggs and add the milk",
+            "Use a mortar and pestle to grind the cloves and add to the mix",
+            "Slice mushroom in strips add to mix",
+            "Add capers, mustard, and minced garlic",
+            "Coat the dish pan with butter and breadcrumbs and add mix to dish and place in oven for 40 minutes",
+            "Garnish with chopped basil and shredded cheddar and put in oven for another 5 minutes",
+            "Serve with sauerkraut and pickles"
+        ],
+         "nutritionFacts": {
+            "calories": 3020,
+            "protein": "147g",
+            "fat": "95g",
+            "carbohydrates": "390g",
+            "sodium": "4128mg"
+        }
     }
-
 ]
