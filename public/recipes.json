@@ -368,5 +368,71 @@
             "carbohydrates": "390g",
             "sodium": "4128mg"
         }
-    }
+    },
+    {
+    "category": "Other",
+    "title": "Festive Turkey & Stuffing",
+    "description": "Traditional turkey with homemade stuffing featuring brioche, seasonal vegetables, and dried cranberries",
+    "ingredients": [
+        { "quantity": 10, "ingredient": "bread cubes (brioche & egg bread)", "measurement": "cups" },
+        { "quantity": 2, "ingredient": "apples", "measurement": "" },
+        { "quantity": 1.5, "ingredient": "vidalia onion", "measurement": "" },
+        { "quantity": 5, "ingredient": "celery", "measurement": "stalks" },
+        { "quantity": 1, "ingredient": "carrot", "measurement": "medium sized" },
+        { "quantity": 1, "ingredient": "yellow pepper", "measurement": "" },
+        { "quantity": 0.5, "ingredient": "leek", "measurement": "" },
+        { "quantity": 0.5, "ingredient": "salted butter", "measurement": "pound" },
+        { "quantity": 0.75, "ingredient": "dried cranberries", "measurement": "cup" },
+        { "quantity": 5, "ingredient": "eggs", "measurement": "" },
+        { "quantity": 2, "ingredient": "fresh parsley", "measurement": "tablespoons" },
+        { "quantity": 1, "ingredient": "turkey (12-14 lb)", "measurement": "" }
+    ],
+    "steps": [
+        "Break up bread in large bowl",
+        "Sauté vegetables in butter until soft",
+        "Add peeled and large diced apples midway cooking vegetables, sauté 5 more minutes",
+        "Add cranberries and parsley",
+        "Stir vegetables into bread",
+        "Beat eggs and mix into bread mixture",
+        "Stuff into clean (inside and outside) and dry turkey cavity",
+        "Preheat oven to 425°F",
+        "Season outside turkey with salt and pepper",
+        "Add water to bottom of turkey pan",
+        "Place turkey upside down because gravity of juices makes the turkey breasts beautiful",
+        "Cook at 425°F for 15-20 minutes",
+        "Reduce heat to 350°F and cook 3.5-4.5 hours depending on turkey size"
+    ],
+    "nutritionFacts": {
+        "calories": 4850,
+        "protein": "298g",
+        "fat": "186g",
+        "carbohydrates": "445g",
+        "sodium": "5240mg"
+        }
+    },
+    {
+"category": "Exotic",
+"title": "Aloe Mango Smoothie",
+"description": "Refreshing smoothie combining fresh aloe vera, sweet alphonso mangos, and oat milk",
+"ingredients": [
+{ "quantity": 1, "ingredient": "aloe vera leaf", "measurement": "long" },
+{ "quantity": 2, "ingredient": "alphonso mangos", "measurement": "" },
+{ "quantity": 0.5, "ingredient": "oat milk", "measurement": "cup" },
+{ "quantity": 1, "ingredient": "ice cubes", "measurement": "handful" },
+{ "quantity": 2, "ingredient": "honey", "measurement": "tablespoons" }
+],
+"steps": [
+"Separate aloe from skin with knife and chop into pieces",
+"Slice mangos and remove skin",
+"Place all ingredients in blender",
+"Pulse until smooth"
+],
+"nutritionFacts": {
+"calories": 385,
+"protein": "4g",
+"fat": "3g",
+"carbohydrates": "92g",
+"sodium": "65mg"
+}
+}
 ]
