@@ -411,28 +411,119 @@
         }
     },
     {
-"category": "Exotic",
-"title": "Aloe Mango Smoothie",
-"description": "Refreshing smoothie combining fresh aloe vera, sweet alphonso mangos, and oat milk",
-"ingredients": [
-{ "quantity": 1, "ingredient": "aloe vera leaf", "measurement": "long" },
-{ "quantity": 2, "ingredient": "alphonso mangos", "measurement": "" },
-{ "quantity": 0.5, "ingredient": "oat milk", "measurement": "cup" },
-{ "quantity": 1, "ingredient": "ice cubes", "measurement": "handful" },
-{ "quantity": 2, "ingredient": "honey", "measurement": "tablespoons" }
-],
-"steps": [
-"Separate aloe from skin with knife and chop into pieces",
-"Slice mangos and remove skin",
-"Place all ingredients in blender",
-"Pulse until smooth"
-],
-"nutritionFacts": {
-"calories": 385,
-"protein": "4g",
-"fat": "3g",
-"carbohydrates": "92g",
-"sodium": "65mg"
-}
-}
+        "category": "Exotic",
+        "title": "Aloe Mango Smoothie",
+        "description": "Refreshing smoothie combining fresh aloe vera, sweet alphonso mangos, and oat milk",
+        "ingredients": [
+            { "quantity": 1, "ingredient": "aloe vera leaf", "measurement": "long" },
+            { "quantity": 2, "ingredient": "alphonso mangos", "measurement": "" },
+            { "quantity": 0.5, "ingredient": "oat milk", "measurement": "cup" },
+            { "quantity": 1, "ingredient": "ice cubes", "measurement": "handful" },
+            { "quantity": 2, "ingredient": "honey", "measurement": "tablespoons" }
+        ],
+        "steps": [
+            "Separate aloe from skin with knife and chop into pieces",
+            "Slice mangos and remove skin",
+            "Place all ingredients in blender",
+            "Pulse until smooth"
+        ],
+        "nutritionFacts": {
+            "calories": 385,
+            "protein": "4g",
+            "fat": "3g",
+            "carbohydrates": "92g",
+            "sodium": "65mg"
+        }
+    },
+    {
+        "category": "Sweet",
+        "title": "Layered Apple Cake",
+        "description": "A delicious layered cake with fresh apples, cinnamon, and a tender butter base",
+        "servings": 9,
+        "prepTime": "25 minutes",
+        "cookTime": "45 minutes",
+        "ingredients": [
+            {
+                "quantity": 0.67,
+                "ingredient": "sugar",
+                "measurement": "cup",
+                "notes": "for batter"
+            },
+            {
+                "quantity": 1,
+                "ingredient": "flour",
+                "measurement": "cup"
+            },
+            {
+                "quantity": 2,
+                "ingredient": "baking powder",
+                "measurement": "teaspoon"
+            },
+            {
+                "quantity": 0.125,
+                "ingredient": "salt",
+                "measurement": "teaspoon",
+                "notes": "pinch"
+            },
+            {
+                "quantity": 3,
+                "ingredient": "eggs",
+                "measurement": ""
+            },
+            {
+                "quantity": 0.5,
+                "ingredient": "vegetable oil",
+                "measurement": "cup"
+            },
+            {
+                "quantity": 5,
+                "ingredient": "apples",
+                "measurement": "medium",
+                "notes": "peeled and sliced"
+            },
+            {
+                "quantity": 1,
+                "ingredient": "cinnamon",
+                "measurement": "teaspoon"
+            },
+            {
+                "quantity": 0.25,
+                "ingredient": "sugar",
+                "measurement": "cup",
+                "notes": "for apple coating"
+            },
+            {
+                "quantity": 0.5,
+                "ingredient": "walnuts",
+                "measurement": "cup",
+                "notes": "chopped, for topping"
+            }
+        ],
+        "steps": [
+            "Preheat oven to 350°F",
+            "In a large bowl, mix together 2/3 cup sugar, flour, baking powder, and salt",
+            "Add well beaten eggs and oil to the dry mixture, stir until combined, and set aside",
+            "Peel and slice apples into thin slices",
+            "In a separate bowl, combine apples with 1/4 cup sugar and cinnamon",
+            "Grease an 8x8 inch glass baking dish",
+            "Spread half of the batter evenly in the prepared dish",
+            "Layer half of the sliced apples over the batter",
+            "Repeat with remaining batter and apples",
+            "Sprinkle chopped walnuts over the top layer",
+            "Bake for 45 minutes or until a toothpick inserted comes out clean"
+        ],
+        "nutritionFacts": {
+            "nutritionFacts": {
+                "calories": 2430,
+                "protein": "45g",
+                "fat": "126g",
+                "saturatedFat": "14g",
+                "carbohydrates": "298g",
+                "fiber": "24g",
+                "sugar": "186g",
+                "sodium": "1280mg",
+                "cholesterol": "620mg"
+            }
+        }
+    }
 ]
