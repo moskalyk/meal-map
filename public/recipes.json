@@ -525,5 +525,108 @@
                 "cholesterol": "620mg"
             }
         }
+    },
+    {
+    "category": "Other",
+    "title": "Spicy Maple Cauliflower Bites",
+    "description": "Crispy almond-crusted cauliflower bites tossed in a sweet and spicy maple hot sauce coating",
+    "servings": 4,
+    "ingredients": [
+        {
+            "quantity": 1,
+            "ingredient": "cauliflower",
+            "measurement": "head"
+        },
+        {
+            "quantity": 0.75,
+            "ingredient": "Frank's hot sauce",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 2,
+            "ingredient": "maple syrup",
+            "measurement": "tablespoon"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "almond flour",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 4,
+            "ingredient": "eggs",
+            "measurement": ""
+        }
+    ],
+    "steps": [
+        "Wash cauliflower and cut into bite-sized chunks",
+        "Bring a pot of water to boil and blanch cauliflower until soft",
+        "Remove cauliflower and let cool completely",
+        "Preheat oven to 425°F",
+        "Beat eggs in a bowl",
+        "Place almond flour in a separate bag",
+        "Dip each cauliflower piece in egg, then coat with almond flour",
+        "Place coated pieces on a cookie sheet",
+        "Bake for 20 minutes or until golden brown",
+        "Mix hot sauce with maple syrup in a large bowl",
+        "Remove cauliflower from oven and toss with sauce mixture",
+        "Return to oven for additional 5 minutes",
+        "Serve hot with a nice dipping sauce"
+    ],
+    "nutritionFacts": {
+        "nutritionFacts": {
+            "calories": 1280,
+            "protein": "52g",
+            "fat": "92g",
+            "saturatedFat": "12g",
+            "carbohydrates": "76g",
+            "fiber": "24g",
+            "sugar": "28g",
+            "sodium": "2400mg",
+            "cholesterol": "740mg"
+        }
     }
+},{
+"category": "Toppings",
+"title": "Garlic Sesame Cream Sauce",
+"description": "A creamy garlic sauce with Asian-inspired sesame notes, perfect for dipping or drizzling",
+"servings": 4,
+"prepTime": "5 minutes",
+"cookTime": "0 minutes",
+"ingredients": [
+{
+"quantity": 0.33,
+"ingredient": "sour cream",
+"measurement": "cup"
+},
+{
+"quantity": 3,
+"ingredient": "garlic",
+"measurement": "cloves",
+"notes": "minced"
+},
+{
+"quantity": 1,
+"ingredient": "sesame oil",
+"measurement": "tablespoon"
+}
+],
+"steps": [
+"Chop garlic",
+"Mix ingredients"
+],
+"nutritionFacts": {
+"nutritionFacts": {
+"calories": 240,
+"protein": "2g",
+"fat": "24g",
+"saturatedFat": "9g",
+"carbohydrates": "4g",
+"fiber": "0g",
+"sugar": "2g",
+"sodium": "60mg",
+"cholesterol": "40mg"
+}
+}
+}
 ]
