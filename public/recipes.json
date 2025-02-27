@@ -628,5 +628,139 @@
 "cholesterol": "40mg"
 }
 }
+},
+{
+    "category": "Main",
+    "title": "Lettuce Wrap Fish Cakes",
+    "description": "Crispy chopped lobster and diced scallops in rice noodle and lettuc wraps with a topping of red pepper salsa, inspired by a recipe from a site called ibreatheimhungry.com",
+    "servings": 4,
+    "ingredients": [
+        {
+            "quantity": 1,
+            "ingredient": "grainy dijon mustard",
+            "measurement": "tablespoon"
+        },
+        {
+            "quantity": 0.25,
+            "ingredient": "parmesan cheese",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 0.5,
+            "ingredient": "lemon",
+            "measurement": ""
+        },
+        {
+            "quantity": 0.75,
+            "ingredient": "almond flour",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "egg yolk",
+            "measurement": ""
+        },
+        {
+            "quantity": 0.25,
+            "ingredient": "parsley",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 2,
+            "ingredient": "roasted red peppers",
+            "measurement": ""
+        },
+        {
+            "quantity": 0.75,
+            "ingredient": "worchester sauce",
+            "measurement": "tablespoon"
+        },
+        {
+            "quantity": 2,
+            "ingredient": "minced garlic",
+            "measurement": "cloves"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "cooked lobster",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 4,
+            "ingredient": "scallops",
+            "measurement": ""
+        },
+        {
+            "quantity": 0.75,
+            "ingredient": "almond flour",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 0.25,
+            "ingredient": "diced onion",
+            "measurement": ""
+        },
+        {
+            "quantity": 1,
+            "ingredient": "curry powder",
+            "measurement": "tablespoon"
+        },
+        {
+            "quantity": 8,
+            "ingredient": "iceberg lettuce",
+            "measurement": "cups"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "rice noodles",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 2,
+            "ingredient": "mayonnaise",
+            "measurement": "tablespoon"
+        },
+        {
+            "quantity": 4,
+            "ingredient": "olive oil",
+            "measurement": "tablespoons"
+        }
+    ],
+    "steps": [
+        "Place washed red peppers on high heat on barbeque",
+        "Cook and rotate till soft (~15 minutes)",
+        "Remove and place under pot lid and bowl to steam",
+        "Use water and peel outside skin",
+        "Chop red peppers",
+        "Add minced garlic, worchester sauce, and squeezed lemon",
+        "",
+        "Place rice noodles in warm water and let sit for 30 minutes",
+        "Once complete, drain and place in bowl",
+        "",
+        "Wash scallops and place in pan with salt, butter, and olive oil",
+        "Cook scallops till golden brown",
+        "Chop scallops into diced and add to mixing bowl",
+        "Chop precooked lobster and place into bowl",
+        "Add flour, mayonaise, curry powder, diced onion, egg yolk, parsley, parmesan and mix",
+        "Use your hands to make into patty like shapes",
+        "Pan fry in olive oil till brown on either side",
+        "",
+        "Wash and peel iceberg lettuce heads",
+        "",
+        "Serve all on table and assemble with rice noodles in lettuce wrap cups with a fish cake with red pepper salsa"
+    ],
+    "nutritionFacts": {
+        "nutritionFacts": {
+            "calories": 2500,
+            "protein": "90g",
+            "fat": "40g",
+            "saturatedFat": "30g",
+            "carbohydrates": "60g",
+            "fiber": "12g",
+            "sugar": "10g",
+            "sodium": "2400mg",
+            "cholesterol": "360mg"
+        }
+    }
 }
 ]
