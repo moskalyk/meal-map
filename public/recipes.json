@@ -762,5 +762,94 @@
             "cholesterol": "360mg"
         }
     }
+},
+{
+    "category": "Other",
+    "title": "Irish Beef & Lamb Stew",
+    "description": "Tender meat and sauteed vegetables in hearty stew",
+    "servings": 4,
+    "ingredients": [
+        {
+            "quantity": 8,
+            "ingredient": "beef short ribs (or stewing beef or chuck)",
+            "measurement": ""
+        },
+        {
+            "quantity": 2,
+            "ingredient": "lamb (shanks)",
+            "measurement": "lb"
+        },
+        {
+            "quantity": 10,
+            "ingredient": "brussel sprouts",
+            "measurement": ""
+        },
+        {
+            "quantity": 1,
+            "ingredient": "yellow beans",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 4,
+            "ingredient": "carrots",
+            "measurement": ""
+        },
+        {
+            "quantity": 3,
+            "ingredient": "yellow, red, & orange peppers",
+            "measurement": ""
+        },
+        {
+            "quantity": 2,
+            "ingredient": "roasted red peppers",
+            "measurement": ""
+        },
+        {
+            "quantity": 1,
+            "ingredient": "rutabaga",
+            "measurement": ""
+        },
+        {
+            "quantity": 1,
+            "ingredient": "peas",
+            "measurement": "bag"
+        },
+        {
+            "quantity": 0.5,
+            "ingredient": "apple juice",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "corn starch",
+            "measurement": "tablespoon"
+        }
+    ],
+    "steps": [
+        "Rinse and pat dry beef and lamb",
+        "Remove excess silver skin from meat",
+        "Season beef and lamb with salt and pepper",
+        "Coat in flour",
+        "Chop onions in half rings",
+        "Sear meat in pan with chopped onions",
+        "Put in pot with water and cook meat till tender about 1.5 hours on medium heat",
+        "Take meat out and clean and remove bones",
+        "Place meet in pot again with previous cooked gravy, and bring back up to heat, add vegetables one by one (starting with root vegetables first)",
+        "Taste broth till ready and vegetables are cooked, then mix seperate in cup cold apple juice and water, and corn starch and stir in",
+        "Add frozen cooked peas, cook for another 20 minutes"
+    ],
+    "nutritionFacts": {
+        "nutritionFacts": {
+            "calories": 4000,
+            "protein": "130g",
+            "fat": "50g",
+            "saturatedFat": "35g",
+            "carbohydrates": "40g",
+            "fiber": "23g",
+            "sugar": "0g",
+            "sodium": "2400mg",
+            "cholesterol": "360mg"
+        }
+    }
 }
 ]
