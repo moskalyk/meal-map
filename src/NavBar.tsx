@@ -290,17 +290,13 @@ const NavBar = (props: any) => {
 >
         <p>
           A personal blog to map and keep track of recipes I like making, or
-          have made. Are.na for food memory.
+          have made. are.na for food memory.
           <br />
           <br />
           Some recipes come from other sources, family or friends, where I've
           changed an ingredient.
           <br />
           <br />
-          Additions to site welcome. email:{" "}
-          <a href="mailto:morgan.moskalyk@protonmail.ch">
-            morgan.moskalyk@protonmail.ch
-          </a>
         </p>
           </Box>
 

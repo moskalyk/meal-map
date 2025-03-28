@@ -851,5 +851,68 @@
             "cholesterol": "360mg"
         }
     }
+},
+{
+    "category": "Sides",
+    "title": "Microgreen, Mushroom and Pear Salad",
+    "description": "Tangy and sweet balsamic with earthy rootlike undertones",
+    "servings": 2,
+    "ingredients": [
+        {
+            "quantity": 8,
+            "ingredient": "micro radish greens",
+            "measurement": ""
+        },
+        {
+            "quantity": 0.5,
+            "ingredient": "pear",
+            "measurement": "lb"
+        },
+        {
+            "quantity": 2,
+            "ingredient": "shallots",
+            "measurement": ""
+        },
+        {
+            "quantity": 1,
+            "ingredient": "white wine vinegar",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "oyster mushrooms (could use king oysters)",
+            "measurement": ""
+        },
+        {
+            "quantity": 2,
+            "ingredient": "egg yolk",
+            "measurement": ""
+        },
+        {
+            "quantity": 1,
+            "ingredient": "balsamic glaze",
+            "measurement": ""
+        }
+    ],
+    "steps": [
+        "peel shallots and place in oven (or over fire) for 20 minutes @ 350 °F until soft",
+        "cut and julien mushrooms and sautee with butter and pepper",
+        "rinse radish greens and mix in bowl with egg yolks and white wine vinegar",
+        "slice thinly a pear from quarters",
+        "plate the salad and serve"
+    ],
+    "nutritionFacts": {
+        "nutritionFacts": {
+            "calories": 0,
+            "protein": "0",
+            "fat": "0",
+            "saturatedFat": "0",
+            "carbohydrates": "0",
+            "fiber": "0",
+            "sugar": "0",
+            "sodium": "0",
+            "cholesterol": "0"
+        }
+    }
 }
 ]
