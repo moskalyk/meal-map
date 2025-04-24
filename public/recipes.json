@@ -914,5 +914,66 @@
             "cholesterol": "0"
         }
     }
+},
+{
+    "category": "Snack",
+    "title": "Crunchy & Fluffy Trail Mix",
+    "description": "Mixed nuts, with oil and sweet honey ready for any camping, or, at home in your yogurt.",
+    "servings": 2,
+    "ingredients": [
+        {
+            "quantity": 1,
+            "ingredient": "macadamian nuts",
+            "measurement": ""
+        },
+        {
+            "quantity": 0.5,
+            "ingredient": "almonds",
+            "measurement": "lb"
+        },
+        {
+            "quantity": 2,
+            "ingredient": "rice krispies",
+            "measurement": ""
+        },
+        {
+            "quantity": 1,
+            "ingredient": "honey",
+            "measurement": "cup"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "coconut oil",
+            "measurement": ""
+        },
+        {
+            "quantity": 2,
+            "ingredient": "roasted oats",
+            "measurement": ""
+        },
+        {
+            "quantity": 1,
+            "ingredient": "salt",
+            "measurement": ""
+        }
+    ],
+    "steps": [
+        "roast oats spread thinly on a cookie sheet by broiling for 5 minutes or so",
+        "chop up nuts",
+        "mix all ingredients together with custom amounts for ingredients, with the honey and coconut oil melted first"
+    ],
+    "nutritionFacts": {
+        "nutritionFacts": {
+            "calories": 0,
+            "protein": "0",
+            "fat": "0",
+            "saturatedFat": "0",
+            "carbohydrates": "0",
+            "fiber": "0",
+            "sugar": "0",
+            "sodium": "0",
+            "cholesterol": "0"
+        }
+    }
 }
 ]
