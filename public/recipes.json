@@ -975,5 +975,79 @@
             "cholesterol": "0"
         }
     }
+},{
+    "category": "Other",
+    "title": "Mini Cloud Spaetzle",
+    "description": "Fluffy spaetzle that look like clouds, with simple butter and olive oil, served with cheese, cherry tomatoes, and poblano peppers",
+    "servings": 4,
+    "ingredients": [
+        {
+            "quantity": 5,
+            "ingredient": "egg",
+            "measurement": ""
+        },
+        {
+            "quantity": 4,
+            "ingredient": "flour",
+            "measurement": "cups"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "cheese",
+            "measurement": "1/2 cup"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "nutmeg",
+            "measurement": "1/4 tsp"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "water",
+            "measurement": "1/4 cup"
+        },
+        {
+            "quantity": 1,
+            "ingredient": "cherry tomatoes",
+            "measurement": "bunch"
+        },
+        {
+            "quantity": 2,
+            "ingredient": "poblano peppers",
+            "measurement": ""
+        },
+        {
+            "quantity": 4,
+            "ingredient": "beet and horseradish",
+            "measurement": "tbsp"
+        }
+    ],
+    "steps": [
+        "preheat oven to 350°F",
+        "mix flour and dry ingredients in a bowl",
+        "scramble eggs and mix into the bowl with the 1/4 cup of water",
+        "let dough sit for 5-10 minutes",
+        "boil water, and pull dough appart into peices and cut into small chunks with scissors to plop into the water",
+        "let dough cook for 5 minutes",
+        "use a ladle with holes to lift the cooked spaetzle into a bowl",
+        "mix with butter and oil to your liking",
+        "place cherry tomatoes in a ramekin, and cook for 20 minutes",
+        "add spaetzle to bowl with cheese and cook in oven for 10 minutes",
+        "chop peppers and pear and place in a pan and cook",
+        "serve with beets and horseradish on a plate (optional serve with ground baba's style 'meat on a stick')"
+    ],
+    "nutritionFacts": {
+        "nutritionFacts": {
+            "calories": 0,
+            "protein": "0",
+            "fat": "0",
+            "saturatedFat": "0",
+            "carbohydrates": "0",
+            "fiber": "0",
+            "sugar": "0",
+            "sodium": "0",
+            "cholesterol": "0"
+        }
+    }
 }
 ]
