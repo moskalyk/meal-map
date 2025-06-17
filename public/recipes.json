@@ -1049,5 +1049,81 @@
             "cholesterol": "0"
         }
     }
-}
+},{
+        "category": "Sweet",
+        "title": "Keto [Strawberry] Ice Scream",
+        "description": "Creamy",
+        "servings": 3,
+        "ingredients": [
+            {
+                "quantity": 0,
+                "ingredient": "xylitol / sugar",
+                "measurement": "as needed"
+            },
+            {
+                "quantity": 4,
+                "ingredient": "washed egg",
+                "measurement": ""
+            },
+            {
+                "quantity": 0.5,
+                "ingredient": "grass fed butter",
+                "measurement": "cup"
+            },
+            {
+                "quantity": 0.3,
+                "ingredient": "coconut oil",
+                "measurement": "cup"
+            },
+            {
+                "quantity": 4,
+                "ingredient": "vanilla extract",
+                "measurement": "teaspoon"
+            },
+            {
+                "quantity": 1,
+                "ingredient": "salt",
+                "measurement": "pinch"
+            },
+            {
+                "quantity": 5,
+                "ingredient": "ice",
+                "measurement": "cube"
+            },
+            {
+                "quantity": 1,
+                "ingredient": "cinnamon",
+                "measurement": "teaspoon"
+            },
+            {
+                "quantity": 0.66,
+                "ingredient": "strawberries",
+                "measurement": "cup"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "apple cider vinegar",
+                "measurement": "splash"
+            }
+        ],
+        "steps": [
+            "Place in a blender: ice cubes, vanilla, salt, strawberries, cinnamon, xylitol (sweetner)",
+            "Blend to smooth",
+            "Melt butter and coconut in pan and pour in blender with apple cider vinegar and blend",
+            "Place in freezer"
+        ],
+        "nutritionFacts": {
+            "nutritionFacts": {
+                "calories": 0,
+                "protein": "0",
+                "fat": "0",
+                "saturatedFat": "0",
+                "carbohydrates": "0",
+                "fiber": "0",
+                "sugar": "0",
+                "sodium": "0",
+                "cholesterol": "0"
+            }
+        }
+    }
 ]
