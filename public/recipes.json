@@ -1125,5 +1125,86 @@
                 "cholesterol": "0"
             }
         }
+    },{
+        "category": "Sweet",
+        "title": "Lemon Revival Cookies",
+        "description": "Rejuvenuate a hot summer day with a zesty lemon treat",
+        "servings": 10,
+        "ingredients": [
+            {
+                "quantity": 3,
+                "ingredient": "maple syrup",
+                "measurement": "tablespoon"
+            },
+            {
+                "quantity": 1,
+                "ingredient": "washed egg",
+                "measurement": ""
+            },
+            {
+                "quantity": 0.25,
+                "ingredient": "grass fed butter",
+                "measurement": "cup"
+            },
+            {
+                "quantity": 1,
+                "ingredient": "lemon",
+                "measurement": ""
+            },
+            {
+                "quantity": 3,
+                "ingredient": "vanilla extract",
+                "measurement": "teaspoon"
+            },
+            {
+                "quantity": 1,
+                "ingredient": "salt",
+                "measurement": "pinch"
+            },
+            {
+                "quantity": 2,
+                "ingredient": "poppy seeds",
+                "measurement": "tablespoon"
+            },
+            {
+                "quantity": 0.75,
+                "ingredient": "flour",
+                "measurement": "cup"
+            },
+            {
+                "quantity": 0.5,
+                "ingredient": "almond flour",
+                "measurement": "cup"
+            },
+            {
+                "quantity": 2,
+                "ingredient": "baking powder",
+                "measurement": "teaspoon"
+            }
+        ],
+        "steps": [
+            "Preheat oven to 350°F",
+            "Place all dry ingredients in a bowl (except salt)",
+            "Melt butter and pour in",
+            "Wisk egg and add",
+            "Add vanilla",
+            "Add maple syrup",
+            "Squeeze lemon in a seperate bowl with a strainer, and zest the washed outside of the lemon. Add lemon juice and utter 'revival' to mixture and save zest for topping.",
+            "Add salt and zest to top",
+            "Place in oven for 25-25 minutes"
+        ],
+        "nutritionFacts": {
+            "nutritionFacts": {
+                "calories": 0,
+                "protein": "0",
+                "fat": "0",
+                "saturatedFat": "0",
+                "carbohydrates": "0",
+                "fiber": "0",
+                "sugar": "0",
+                "sodium": "0",
+                "cholesterol": "0"
+            }
+        }
     }
 ]
