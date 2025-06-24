@@ -1180,6 +1180,10 @@
                 "quantity": 2,
                 "ingredient": "baking powder",
                 "measurement": "teaspoon"
+            },{
+                "quantity": 0.5,
+                "ingredient": "rice krispies",
+                "measurement": "cup"
             }
         ],
         "steps": [
@@ -1191,6 +1195,7 @@
             "Add maple syrup",
             "Squeeze lemon in a seperate bowl with a strainer, and zest the washed outside of the lemon. Add lemon juice and utter 'revival' to mixture and save zest for topping.",
             "Add salt and zest to top",
+            "make into small cookies",
             "Place in oven for 25-25 minutes"
         ],
         "nutritionFacts": {
