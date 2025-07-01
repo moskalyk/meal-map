@@ -1211,5 +1211,73 @@
                 "cholesterol": "0"
             }
         }
+    },
+    {
+        "category": "Sides",
+        "title": "Acorn Squash & Blue Cheese Ravioli",
+        "description": "Served with a bechamel sauce and garnished with thyme, enjoy homemade pasta ravioli",
+        "servings": 3,
+        "ingredients":[{
+            "quantity": 1.5,
+            "ingredient": "flour",
+            "measurement": "cup"
+        },{
+            "quantity": 3,
+            "ingredient": "egg",
+            "measurement": ""
+        },{
+            "quantity": 1,
+            "ingredient": "milk",
+            "measurement": "cup"
+        },{
+            "quantity": 0.25,
+            "ingredient": "butter",
+            "measurement": "cup"
+        },{
+            "quantity": 5,
+            "ingredient": "pecorino",
+            "measurement": "g"
+        },{
+            "quantity": 1,
+            "ingredient": "nutmeg",
+            "measurement": "pinch"
+        },{
+            "quantity": 1,
+            "ingredient": "spinach",
+            "measurement": "cup"
+        },{
+            "quantity": 1,
+            "ingredient": "acorn squash",
+            "measurement": "whole"
+        },{
+            "quantity": 5,
+            "ingredient": "blue cheese",
+            "measurement": "g"
+        }],
+        "steps":[
+            "first begin by preheating oven to 350°F",
+            "cut the top off the acorn squash so the inside cavity is showing and scoop out seeds",
+            "put 0.1 cup water in the cavity of the squash and bake for 1 hour",
+            "prepare the bechamel sauce by heating the butter in a pot and using a wisk, stir in 40g of flour slowly",
+            "heat the milk in a seperate pot and mix and wisk in slowly",
+            "add the nutmeg and place to the side",
+            "in a pan, cook the spinach",
+            "on a counter top, pour ~1 cup of flour and crack the 3 eggs into the flour. mix well with a fork",
+            "knead the pasta until stretchy for 8-10 minutes",
+            "use a rolling pin to flatten into lasagne like peices, then cut out squares for the ravioli. one for the top one for the bottom.",
+            "take a bit of the squash, spinach, and a corner of blue cheese and put in center of ravioli pasta. repeat and use a fork to squish the sides to enclose the inside.",
+            "cook for 5 minutes and serve with sauce and whatever garnish"
+        ],
+        "nutritionFacts": {
+            "calories": 0,
+            "protein": "0",
+            "fat": "0",
+            "saturatedFat": "0",
+            "carbohydrates": "0",
+            "fiber": "0",
+            "sugar": "0",
+            "sodium": "0",
+            "cholesterol": "0"
+        }
     }
 ]
